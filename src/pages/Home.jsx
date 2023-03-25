@@ -82,8 +82,6 @@ const Home = () => {
           
   return (
     <div className='container'>
-      
-
         <div className="login">
       <section>
         <form onSubmit={submitHandler} >

@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import './styles/App.scss'
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import "../src/Styles/app.scss";
+
 import {createContext} from 'react';
 
 export const server = 'https://node-todoapp.onrender.com/api/v1';

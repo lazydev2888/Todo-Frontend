@@ -1,7 +1,7 @@
 import axios from 'axios';
-import React, { useContext } from 'react'
+import React, { useContext } from 'react';
 import { toast } from 'react-hot-toast';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { Context, server } from '../main';
 
 
@@ -26,12 +26,6 @@ const Header = () => {
         setLoading(false);
      }
     };
-
-
-
-
-
-
   return (
     <nav className='header'>
         <div>
