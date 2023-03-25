@@ -30,8 +30,6 @@ function App() {
     setLoading(false);
     });
       }, [])
-  
-
 
 
   return (
@@ -41,7 +39,7 @@ function App() {
       <Route path="/"  element={<Home />} />
       <Route path="/profile"  element={<Profile />} />
       <Route path="/login"  element={<Login />} />
-      <Route path="/register"  element={<Register />} />
+      <Route path="/register" element={<Register />} />
       </Routes>
       <Toaster/>
       </Router>
